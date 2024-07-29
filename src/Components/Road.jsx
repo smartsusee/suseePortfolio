@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/road.css";
+import AutochangeData from "./AutochangeData";
 function Road() {
   return (
     <>

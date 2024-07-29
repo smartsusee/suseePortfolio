@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Road from "./Components/Road";
+import AutochangeData from "./Components/AutochangeData";
 function App() {
   const showNav = useRef(null);
   const [ref, setref] = useState(false);
@@ -71,7 +72,9 @@ function App() {
             alignItems: "end",
           }}
         >
-          <div class="hi"></div> <h1> Hi , I am Suseentheran </h1>
+          <div class="hi"></div>
+          <AutochangeData />
+          {/* <h1> Hi , I am Suseentheran </h1> */}
           <div class="hi"></div>
         </div>
       </section>

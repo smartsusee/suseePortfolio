@@ -3,16 +3,17 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  font-family: Arial, sans-serif;
+  font-family: "Open Sans", sans-serif; /* Default font style for the portfolio */
 }
 
 /* Header */
 .portfolio-header {
-  background-color: #333; /* Background color */
+  background-color: #333;
   color: white;
   padding: 20px;
   text-align: center;
-  animation: slideIn 1s ease-out, backgroundFade 5s infinite alternate; /* Animation */
+  font-family: "Lora", serif; /* Change font style for the header */
+  animation: slideIn 1s ease-out, backgroundFade 5s infinite alternate;
 }
 
 /* Animation Keyframes */
@@ -36,6 +37,17 @@
   }
 }
 
+@keyframes fadeInUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 /* Main Content */
 .portfolio-main {
   flex: 1;
@@ -44,18 +56,35 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
+  animation: fadeInUp 1.5s ease-out;
+  background: linear-gradient(135deg, #f0f4f8, #d9e3f0);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+  font-family: "Roboto", sans-serif; /* Font style for the main content */
 }
+/* 
+.portfolio-main:hover {
+  transform: scale(1.05);
+} */
 
+/* Profile Content */
 .profile-content {
   text-align: center;
   max-width: 800px;
   margin-bottom: 40px;
+  color: #333;
+  font-size: 1.2em;
+  line-height: 1.6;
+  font-family: "Lora", serif; /* Font style for the profile content */
 }
 
 /* Single Image */
 .image-slider {
   display: flex;
-  justify-content: center; /* Center the image */
+  justify-content: center;
   width: 100%;
 }
 
@@ -63,12 +92,63 @@
   width: 200px;
   height: 200px;
   border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-slider img:hover {
+  transform: scale(1.1);
 }
 
 /* Footer */
 .portfolio-footer {
-  background-color: #333;
+  background: linear-gradient(135deg, #333, #555); /* Gradient background */
   color: white;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  animation: fadeInFooter 2s ease-out; /* Fade-in animation */
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Open Sans", sans-serif; /* Font style for the footer */
+}
+
+.portfolio-footer p {
+  margin: 0;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  animation: textGlow 2s ease-in-out infinite alternate; /* Text glow animation */
+}
+
+@keyframes fadeInFooter {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes textGlow {
+  0% {
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ff00ff, 0 0 15px #ff00ff;
+  }
+  100% {
+    text-shadow: 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff;
+  }
+}
+
+@keyframes floatingIcons {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }

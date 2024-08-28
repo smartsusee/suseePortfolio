@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/road.css";
-import img1 from "../images/Screenshot 2024-08-13 134437.png";
+import img1 from "../images/Screenshot 2024-05-09 193139.png";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";

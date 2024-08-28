@@ -30,11 +30,11 @@ function Purchase() {
             <br />
             <br />
             <a
-              href="https://linkedin.com/in/johndoe"
+              href="https://github.com/smartsusee"
               target="_blank"
               rel="noopener noreferrer"
             >
-              linkedin.com/in/johndoe
+              Github.com/smartsusee
             </a>
           </p>
         </header>

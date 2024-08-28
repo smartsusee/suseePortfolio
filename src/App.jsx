@@ -105,21 +105,21 @@ function Footer() {
 
       <div class="footer-icons">
         <a href="#">
-          <FaTwitter />
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="mailto:susee37432@gmail.com">
+          <i class="fa-solid fa-envelope"></i>
         </a>
         <a href="#">
-          <FaInstagram />
-        </a>
-        <a href="#">
-          <FaFacebookSquare />
+          <i class="fa-brands fa-github"></i>
         </a>
       </div>
 
-      <div class="footer-links">
+      {/* <div class="footer-links">
         <a href="#">About Us</a>
         <a href="#">Contact</a>
         <a href="#">Privacy Policy</a>
-      </div>
+      </div> */}
 
       <div class="footer-copy">© 2024 Your Company. All rights reserved.</div>
     </footer>

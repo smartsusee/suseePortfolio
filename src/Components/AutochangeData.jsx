@@ -6,9 +6,21 @@ function AutochangeData() {
     <div id="textchange">
       <section class="cd-intro">
         <h1 class="cd-headline clip is-full-width">
-          <span>Hi , I am Suseentheran</span>
+          <span
+            style={{
+              color: "black",
+              borderRadius: "89px",
+              padding: "10px",
+              backgroundColor: "wheat",
+            }}
+          >
+            Hi , I am Suseentheran
+          </span>
           <span class="cd-words-wrapper">
-            <b class="is-visible">
+            <b
+              class="is-visible"
+              style={{ color: "black", marginLeft: "10px" }}
+            >
               <img
                 src="https://i.imgur.com/h7tFlwr.png"
                 style={{
@@ -16,9 +28,20 @@ function AutochangeData() {
                   backgroundColor: "black",
                   padding: "5px",
                   borderRadius: "10px",
+                  // backgroundColor: "red",
                 }}
               />
-              Squarespace
+              <span
+                style={{
+                  color: "black",
+                  borderRadius: "10px",
+                  padding: "5px",
+                  backgroundColor: "wheat",
+                  marginLeft: "10px",
+                }}
+              >
+                Squarespace
+              </span>
             </b>
             <b>
               <img
@@ -30,7 +53,18 @@ function AutochangeData() {
                   borderRadius: "10px",
                 }}
               />
-              Shopify
+
+              <span
+                style={{
+                  color: "black",
+                  borderRadius: "10px",
+                  padding: "5px",
+                  backgroundColor: "wheat",
+                  marginLeft: "10px",
+                }}
+              >
+                Shopify
+              </span>
             </b>
             <b>
               <img
@@ -42,7 +76,18 @@ function AutochangeData() {
                   borderRadius: "10px",
                 }}
               />
-              Wix
+
+              <span
+                style={{
+                  color: "black",
+                  borderRadius: "10px",
+                  padding: "5px",
+                  backgroundColor: "wheat",
+                  marginLeft: "10px",
+                }}
+              >
+                Wix
+              </span>
             </b>
           </span>
         </h1>

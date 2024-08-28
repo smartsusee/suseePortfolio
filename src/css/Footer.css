@@ -1,0 +1,429 @@
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-logo a {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-links a:hover {
+  color: #4CAF50;
+}
+
+.footer-icons a {
+  color: #fff;
+  font-size: 24px;
+  margin: 0 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-icons a:hover {
+  color: #4CAF50;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.footer {
+  background-color: #1c1c1c;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer h3 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #f4f4f4;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.footer-icons {
+  margin-bottom: 20px;
+}
+
+.icon {
+  color: #f4f4f4;
+  font-size: 24px;
+  margin: 0 10px;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.icon:hover {
+  color: #ffcc00;
+  transform: scale(1.1);
+  animation: bounce 0.6s;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #b0b0b0;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+/* Keyframes for animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+/* Footer Container */
+.footer-container {
+  background-color: #222;
+  padding: 40px 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Footer Content */
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  font-size: 16px;
+}
+
+/* Footer Icons */
+.footer-icons {
+  margin-top: 20px;
+}
+
+.footer-icons a {
+  margin: 0 10px;
+  color: #999;
+  font-size: 24px;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-icons a:hover {
+  color: #1da1f2; /* Twitter Blue */
+  transform: scale(1.1);
+}
+
+/* Footer Text Animation */
+.footer-content p {
+  margin: 10px 0;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s forwards;
+}
+
+.footer-content p:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.footer-content p:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+/* Fade In Up Animation */
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Background Animation */
+@keyframes bgMove {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+.footer-container:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.1));
+  animation: bgMove 10s linear infinite;
+}
+
+/* Footer Container */
+.footer-container {
+  background-color: #282c34;
+  color: #ffffff;
+  text-align: center;
+  padding: 40px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Footer Logo */
+.footer-logo {
+  padding: 20px; /* Adjust the padding as needed */
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 20px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+/* Footer Icons */
+.footer-icons a {
+  margin: 0 10px;
+  color: #ffffff;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.footer-icons a:hover {
+  color: #ff6347; /* Change to desired hover color */
+  transform: scale(1.1);
+}
+
+/* Footer Animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Footer Links */
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #ff6347; /* Change to desired hover color */
+}
+
+/* Footer Copy */
+.footer-copy {
+  margin-top: 20px;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+/* General Footer Styles */
+.footer-container {
+  background-color: #282c34;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Footer Logo */
+.footer-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 2px solid #fff;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #444;
+}
+
+/* Footer Icons */
+.footer-icons {
+  margin: 15px 0;
+}
+
+.footer-icons a {
+  color: #fff;
+  font-size: 1.5rem;
+  margin: 0 10px;
+  transition: color 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+}
+
+.footer-icons a:hover {
+  color: #1da1f2; /* Change this color to match your theme */
+  transform: scale(1.2); /* Slightly increase size on hover */
+}
+
+/* Footer Links */
+.footer-links {
+  margin: 15px 0;
+}
+
+.footer-links a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #1da1f2; /* Change this color to match your theme */
+  text-decoration: underline;
+}
+
+/* Footer Copy */
+.footer-copy {
+  margin-top: 15px;
+  font-size: 0.875rem;
+}
+
+/* Footer Icons */
+.footer-icons {
+  margin: 15px 0;
+}
+
+.footer-icons a {
+  color: #fff; /* Default icon color */
+  font-size: 2rem; /* Adjust icon size as needed */
+  margin: 0 15px; /* Space between icons */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  display: inline-block; /* Ensure proper alignment */
+}
+
+.footer-icons a:hover {
+  color: #1da1f2; /* Change this to your preferred hover color */
+  transform: scale(1.2); /* Slightly enlarge the icon */
+}
+
+/* Example animation (optional) */
+.footer-icons a {
+  position: relative;
+}
+
+.footer-icons a::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background: rgba(255, 255, 255, 0.2); /* Light background color for effect */
+  border-radius: 50%;
+  transition: width 0.3s, height 0.3s; /* Smooth expansion */
+  transform: translate(-50%, -50%);
+}
+
+.footer-icons a:hover::before {
+  width: 200%;
+  height: 200%;
+  opacity: 0; /* Hide the background circle on hover */
+}
+
+/* Footer Links */
+.footer-links {
+  margin: 15px 0;
+  text-align: center; /* Center-align links */
+}
+
+.footer-links a {
+  color: #fff; /* Default link color */
+  font-size: 1.2rem; /* Adjust font size as needed */
+  text-decoration: none; /* Remove underline */
+  margin: 0 10px; /* Space between links */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  display: inline-block; /* Ensure proper alignment */
+}
+
+/* Hover effects */
+.footer-links a:hover {
+  color: #1da1f2; /* Change this to your preferred hover color */
+  transform: translateY(-5px); /* Slightly raise the link */
+}
+
+/* Optional underline effect */
+.footer-links a::after {
+  content: '';
+  display: block;
+  height: 2px;
+  background: #1da1f2; /* Color of the underline */
+  transition: width 0.3s ease;
+  width: 0;
+  position: relative;
+  top: 5px; /* Position of the underline */
+  left: 0;
+}
+
+.footer-links a:hover::after {
+  width: 100%; /* Underline expands on hover */
+}

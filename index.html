@@ -5,6 +5,11 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React</title>
+    <!-- purchasecss  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+    />
 
     <!-- _____________ card link ___________________  -->
     <link
@@ -262,6 +267,19 @@
           $newWord.removeClass("is-hidden").addClass("is-visible");
         }
       });
+    </script>
+
+    <!-- __________________________ end ______________________  -->
+
+    <!-- ______________________________purchase jq________________ -->
+    <script>
+      let menu = document.getElementById("#menu-icon");
+      let navbar = document.getElementById(".navbarr");
+
+      menu.onclick = () => {
+        menu.classList.toggle("bi-x");
+        navbar.classList.toggle("open");
+      };
     </script>
   </body>
 </html>

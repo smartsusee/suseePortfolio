@@ -1,6 +1,9 @@
 import React from "react";
 import "../css/road.css";
-import AutochangeData from "./AutochangeData";
+import img1 from "../images/Screenshot 2024-08-13 134437.png";
+import { FaTwitter } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
 function Road() {
   return (
     <>
@@ -20,25 +23,34 @@ function Road() {
             data-aos-delay="150"
             data-aos-duration="5000"
           >
-            <div class="card-image">
-              <img
-                src="https://preview.keenthemes.com/metronic-v4/theme_rtl/assets/pages/media/profile/profile_user.jpg"
-                alt="card image"
-              />
-            </div>
-            <div class="content">
-              <h3>Frontend Developer</h3>
-              <p>HTML|CSS|JS</p>
-            </div>
+            <div>i am worked this project</div>
+            <br />
+            {/* <img
+              style={{ width: "200px" }}
+              src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D"
+              alt="card image"
+            /> */}
+
+            <img
+              src={img1}
+              alt=""
+              width={"250px"}
+              style={{ borderRadius: "30px" }}
+            />
+
+            {/* <div class="content">
+              <h3>Backend Developer</h3>
+              <p>node js</p>
+            </div> */}
             <div class="icons">
               <a href="#">
-                <i class="fa-brands fa-twitter"></i>
+                <FaTwitter />
               </a>
               <a href="#">
-                <i class="fa-brands fa-instagram"></i>
+                <FaInstagram />
               </a>
               <a href="#">
-                <i class="fa-brands fa-facebook"></i>
+                <FaFacebookSquare />
               </a>
             </div>
           </div>
@@ -73,25 +85,34 @@ function Road() {
             data-aos-delay="150"
             data-aos-duration="5000"
           >
-            <div class="card-image">
-              <img
-                src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D"
-                alt="card image"
-              />
-            </div>
-            <div class="content">
+            <div>i am worked this project</div>
+            <br />
+            {/* <img
+              style={{ width: "200px" }}
+              src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D"
+              alt="card image"
+            /> */}
+
+            <img
+              src={img1}
+              alt=""
+              width={"250px"}
+              style={{ borderRadius: "30px" }}
+            />
+
+            {/* <div class="content">
               <h3>Backend Developer</h3>
               <p>node js</p>
-            </div>
+            </div> */}
             <div class="icons">
               <a href="#">
-                <i class="fa-brands fa-twitter"></i>
+                <FaTwitter />
               </a>
               <a href="#">
-                <i class="fa-brands fa-instagram"></i>
+                <FaInstagram />
               </a>
               <a href="#">
-                <i class="fa-brands fa-facebook"></i>
+                <FaFacebookSquare />
               </a>
             </div>
           </div>

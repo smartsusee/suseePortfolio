@@ -62,14 +62,24 @@ a {
 .cd-headline {
   font-size: 20px;
   line-height: 1.2;
-  color: rgb(19, 89, 201);
+  color: rgb(225, 208, 225);
+  background-image: url("https://i.ytimg.com/vi/_nXa9_6sOgQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCsXc0SKcp1nm1uuZfpd4Ag_kACKw");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 10px 10px 10px;
+
+  /* background: -webkit-linear-gradient(rgb(185, 235, 185), rgb(244, 244, 192) , rgb(196, 133, 133)); */
+  border-radius: 10px;
+  padding: 10px;
+  /* text-shadow: 10px 10px 10px wheat; */
 }
 @media only screen and (min-width: 768px) {
   .cd-headline {
     font-size: 20px;
     font-weight: 900;
     text-shadow: 10px 10px 10px;
-    color: rgb(232, 223, 223);
+    color: rgb(255, 247, 247);
   }
 }
 @media only screen and (min-width: 1170px) {

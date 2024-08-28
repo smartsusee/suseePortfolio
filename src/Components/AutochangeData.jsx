@@ -7,11 +7,9 @@ function AutochangeData() {
       <section class="cd-intro">
         <h1 class="cd-headline clip is-full-width">
           <span
+            id="head"
             style={{
-              color: "black",
-              borderRadius: "89px",
-              padding: "10px",
-              backgroundColor: "wheat",
+              fontFamily: "Matematica, sans-serif", // Apply the Matematica font
             }}
           >
             Hi , I am Suseentheran

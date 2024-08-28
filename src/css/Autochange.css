@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Matemasie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
 *::after,
 *::before {
   -webkit-box-sizing: border-box;
@@ -63,17 +65,11 @@ a {
   font-size: 20px;
   line-height: 1.2;
   color: rgb(225, 208, 225);
-  background-image: url("https://i.ytimg.com/vi/_nXa9_6sOgQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCsXc0SKcp1nm1uuZfpd4Ag_kACKw");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  box-shadow: 10px 10px 10px;
 
-  /* background: -webkit-linear-gradient(rgb(185, 235, 185), rgb(244, 244, 192) , rgb(196, 133, 133)); */
   border-radius: 10px;
   padding: 10px;
-  /* text-shadow: 10px 10px 10px wheat; */
 }
+
 @media only screen and (min-width: 768px) {
   .cd-headline {
     font-size: 20px;
@@ -1239,3 +1235,36 @@ xpush
     transform: translateX(100%);
   }
 }
+
+#head {
+  color: rgb(40, 23, 23);
+  border-radius: 10px;
+
+  padding: 10px;
+
+  background: -webkit-linear-gradient(
+    right,
+    rgb(147, 202, 147),
+    rgb(173, 171, 222),
+    rgb(232, 159, 159)
+  );
+  animation-name: animate;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  /* padding: "10px",
+              backgroundColor: "wheat", */
+}
+
+@keyframes animate {
+  50% {
+    transform: rotateX(360deg);
+  }
+}
+@font-face {
+  font-family: "Matematica";
+  src: url("/path/to/Matematica.woff2") format("woff2"),
+    url("/path/to/Matematica.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+}
+

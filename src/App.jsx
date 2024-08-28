@@ -35,7 +35,7 @@ function App() {
       <nav class="nav">
         <div>
           <div class="logo">
-            <a href="#">Your Logo</a>
+            <a href="#">Hi am Suseentheran</a>
           </div>
           <div id="mainListDiv" class="main_list">
             <ul class="navlinks">
@@ -50,14 +50,21 @@ function App() {
                 </a>
               </li>
               <li>
-                <a href="#">Portfolio</a>
+                <a
+                  href=""
+                  onClick={() => {
+                    navigate("/Profile");
+                  }}
+                >
+                  My Profile
+                </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#">Services</a>
               </li>
               <li>
                 <a href="#">Contact</a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
@@ -98,10 +105,10 @@ function Footer() {
 
       <div class="footer-icons">
         <a href="#">
-     <FaTwitter/>
+          <FaTwitter />
         </a>
         <a href="#">
-         <FaInstagram/>
+          <FaInstagram />
         </a>
         <a href="#">
           <FaFacebookSquare />

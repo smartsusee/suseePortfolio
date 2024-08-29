@@ -1,6 +1,8 @@
 import React from "react";
 import "../css/road.css";
 import img1 from "../images/Screenshot 2024-05-09 193139.png";
+import img2 from "../images/Screenshot 2024-01-24 174115.png";
+
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
@@ -23,7 +25,7 @@ function Road() {
             data-aos-delay="150"
             data-aos-duration="5000"
           >
-            <div>i am worked this project</div>
+            <div style={{ color: "white" }}>DashBoard project</div>
             <br />
             {/* <img
               style={{ width: "200px" }}
@@ -85,7 +87,7 @@ function Road() {
             data-aos-delay="150"
             data-aos-duration="5000"
           >
-            <div>i am worked this project</div>
+            <div style={{ color: "white" }}>Sk Engineering project</div>
             <br />
             {/* <img
               style={{ width: "200px" }}
@@ -94,7 +96,7 @@ function Road() {
             /> */}
 
             <img
-              src={img1}
+              src={img2}
               alt=""
               width={"250px"}
               style={{ borderRadius: "30px" }}

@@ -466,3 +466,28 @@
   font-weight: bold; /* Optional: Makes the text bold */
   margin-top: 10px; /* Adds space between the image and text */
 }
+/* Purchase.css */
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.download-pdf-btn,
+.back-button {
+  font-size: 1em;
+  padding: 10px 20px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.download-pdf-btn:hover,
+.back-button:hover {
+  background-color: #357abd;
+}

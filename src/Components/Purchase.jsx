@@ -11,13 +11,23 @@ function Purchase() {
       filename: "resume.pdf",
       image: { type: "jpeg", quality: 0.98 },
       html2canvas: { scale: 2 },
-      jsPDF: { unit: "px", format: [1700, 900], orientation: "portrait" },
+      jsPDF: { unit: "px", format: [1400, 900], orientation: "portrait" },
     };
     html2pdf().from(element).set(options).save();
   };
 
+  const handleBack = () => {
+    window.history.back();
+  };
+
   return (
     <>
+      <header className="portfolio-header">
+        <button className="back-button" onClick={() => window.history.back()}>
+          ← Back
+        </button>
+        <h1>My Portfolio</h1>
+      </header>
       <div id="resume" className="resume-container ">
         <header className="resume-header">
           <h1>Suseentheran</h1>

@@ -9,6 +9,8 @@ import AutochangeData from "./Components/AutochangeData";
 import img1 from "./images/Screenshot 2024-08-13 134437.png";
 import img2 from "./images/Screenshot 2024-08-27 164323.png";
 import img3 from "./images/Screenshot 2024-08-27 164338.png";
+import img4 from "./images/WhatsApp Image 2024-08-28 at 7.40.30 PM.jpeg";
+
 
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
@@ -46,7 +48,8 @@ function App() {
                     navigate("/purchase");
                   }}
                 >
-                  Resume
+                  <i class="fa-solid fa-file"></i>
+                  <span>Resume</span>
                 </a>
               </li>
               <li>
@@ -56,6 +59,7 @@ function App() {
                     navigate("/Profile");
                   }}
                 >
+                  <i class="fa-solid fa-user"></i>
                   My Profile
                 </a>
               </li>
@@ -101,7 +105,11 @@ function App() {
 function Footer() {
   return (
     <footer class="footer-container">
-      <div class="footer-logo">Your Logo</div>
+      <div class="footer-logo">
+
+   <img src={img4} style={{width:"200px"}} alt="" />
+
+      </div>
 
       <div class="footer-icons">
         <a href="#">
@@ -136,7 +144,7 @@ function BasicExample() {
             data-aos-delay="150"
             data-aos-duration="5000"
           >
-            <div>login authendication project</div>
+            <div style={{ color: "white" }}>Login Authendication Project</div>
             <br />
             {/* <img
               style={{ width: "200px" }}
@@ -174,7 +182,7 @@ function BasicExample() {
             data-aos-delay="150"
             data-aos-duration="5000"
           >
-            <div>Purchase project</div>
+            <div style={{ color: "white" }}>Purchase project</div>
             <br />
             {/* <img
               style={{ width: "200px" }}
@@ -211,7 +219,7 @@ function BasicExample() {
             data-aos-delay="150"
             data-aos-duration="5000"
           >
-            <div>i am worked this project</div>
+            <div style={{ color: "white" }}>Kitkat project</div>
             <br />
             {/* <img
               style={{ width: "200px" }}

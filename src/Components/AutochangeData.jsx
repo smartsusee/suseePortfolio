@@ -1,32 +1,29 @@
 import React from "react";
 import "../css/Autochange.css";
+import img1 from "../images/npdejsImg.jpg";
+import img2 from "../images/jsImg.jpg";
+import img3 from "../images/reactImg.jpg";
 
 function AutochangeData() {
   return (
     <div id="textchange">
       <section class="cd-intro">
         <h1 class="cd-headline clip is-full-width">
-          <span
-            id="head"
-            style={{
-              fontFamily: "Matematica, sans-serif", // Apply the Matematica font
-            }}
-          >
-            Hi , I am Suseentheran
-          </span>
           <span class="cd-words-wrapper">
             <b
               class="is-visible"
               style={{ color: "black", marginLeft: "10px" }}
             >
               <img
-                src="https://i.imgur.com/h7tFlwr.png"
+                src={img1}
                 style={{
                   verticalAlign: "middle",
                   backgroundColor: "black",
                   padding: "5px",
                   borderRadius: "10px",
                   // backgroundColor: "red",
+                  width: "100px",
+                  height: "100px",
                 }}
               />
               <span
@@ -38,17 +35,19 @@ function AutochangeData() {
                   marginLeft: "10px",
                 }}
               >
-                Squarespace
+                node js
               </span>
             </b>
             <b>
               <img
-                src="https://i.imgur.com/U4ubCte.png"
+                src={img2}
                 style={{
                   verticalAlign: "middle",
                   backgroundColor: "black",
                   padding: "5px",
                   borderRadius: "10px",
+                  width: "100px",
+                  height: "100px",
                 }}
               />
 
@@ -61,17 +60,19 @@ function AutochangeData() {
                   marginLeft: "10px",
                 }}
               >
-                Shopify
+                Js
               </span>
             </b>
             <b>
               <img
-                src="https://i.imgur.com/ge59aPV.png"
+                src={img3}
                 style={{
                   verticalAlign: "middle",
                   backgroundColor: "black",
                   padding: "5px",
                   borderRadius: "10px",
+                  width: "100px",
+                  height: "100px",
                 }}
               />
 
@@ -84,7 +85,7 @@ function AutochangeData() {
                   marginLeft: "10px",
                 }}
               >
-                Wix
+                React Js
               </span>
             </b>
           </span>

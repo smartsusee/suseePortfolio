@@ -10,6 +10,7 @@
 .portfolio-header {
   background-color: #333;
   color: white;
+  border-radius: 20px;
   padding: 20px;
   text-align: center;
   font-family: "Lora", serif; /* Change font style for the header */
@@ -57,7 +58,8 @@
   justify-content: center;
   padding: 20px;
   animation: fadeInUp 1.5s ease-out;
-  background: linear-gradient(135deg, #f0f4f8, #d9e3f0);
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230706/pngtree-creating-3d-renderings-for-mobile-apps-software-and-web-development-image_3826852.jpg);
+  /* background: linear-gradient(135deg, #f0f4f8, #d9e3f0); */
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 20px;
@@ -158,17 +160,29 @@
 .profile-content p {
   font-size: 1.1em;
   line-height: 1.6;
-  color: #555;
+  color: #c5c8c8;
   margin-top: 15px;
   text-align: justify;
   padding: 15px;
-  background-color: #f0f0f0;
+  /* background-color: #f0f0f0; */
+  background: linear-gradient(135deg, #ba6c7d 10%, #61458e 100%);
+
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   animation: fadeInUpText 1.5s ease-in-out;
   transition: all 0.3s ease;
 }
 
+#contentprofile {
+  color: #111110b8;
+  font-weight: 900;
+  animation-name: animates;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+#h2 {
+  color: #e6e6e6;
+}
 .profile-content p:hover {
   background-color: #e6e6e6;
   transform: translateY(-3px);
@@ -188,7 +202,7 @@
 /* Profile.css */
 
 .portfolio-container {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   background-color: #f9f9f9;
   color: #333;
   padding: 20px;
@@ -203,11 +217,29 @@
 }
 
 .portfolio-header h1 {
-  font-size: 2.5em;
-  color: #4a90e2;
+  font-size: 1.8em;
+  color: #eaecee;
   margin: 0;
 }
-
+#hello {
+  color: #fbf7f7;
+  font-weight: 600;
+  animation-name: animate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes animate {
+  50% {
+    color: rgb(82, 188, 82);
+    text-shadow: 10px 10px 10px black;
+  }
+}
+@keyframes animates {
+  50% {
+    color: rgb(237, 242, 142);
+    text-shadow: 10px 10px 10px black;
+  }
+}
 .back-button {
   font-size: 1em;
   padding: 10px 15px;

@@ -11,7 +11,6 @@ import img2 from "./images/Screenshot 2024-08-27 164323.png";
 import img3 from "./images/Screenshot 2024-08-27 164338.png";
 import img4 from "./images/WhatsApp Image 2024-08-28 at 7.40.30 PM.jpeg";
 
-
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
@@ -37,7 +36,10 @@ function App() {
       <nav class="nav">
         <div>
           <div class="logo">
-            <a href="#">Hi am Suseentheran</a>
+            <a href="#" id="susee">
+              {" "}
+              <i class="fa-solid fa-hand"></i> Hi am Suseentheran
+            </a>
           </div>
           <div id="mainListDiv" class="main_list">
             <ul class="navlinks">
@@ -49,7 +51,7 @@ function App() {
                   }}
                 >
                   <i class="fa-solid fa-file"></i>
-                  <span>Resume</span>
+                  <span style={{ fontSize: "22px" }}> Resume</span>
                 </a>
               </li>
               <li>
@@ -60,7 +62,7 @@ function App() {
                   }}
                 >
                   <i class="fa-solid fa-user"></i>
-                  My Profile
+                  <span style={{ fontSize: "22px" }}> My Profile</span>
                 </a>
               </li>
               {/* <li>
@@ -106,20 +108,22 @@ function Footer() {
   return (
     <footer class="footer-container">
       <div class="footer-logo">
-
-   <img src={img4} style={{width:"200px"}} alt="" />
-
+        <img src={img4} style={{ width: "200px" }} alt="" />
       </div>
 
       <div class="footer-icons">
-        <a href="#">
+        <a
+          href="https://github.com/smartsusee"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i class="fa-brands fa-github"></i>
         </a>
         <a href="mailto:susee37432@gmail.com">
           <i class="fa-solid fa-envelope"></i>
         </a>
         <a href="#">
-          <i class="fa-brands fa-github"></i>
+          <i class="fa-solid fa-arrow-up-from-bracket"></i>
         </a>
       </div>
 

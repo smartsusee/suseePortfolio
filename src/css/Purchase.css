@@ -456,7 +456,7 @@
 
 .software-engineer-image {
   width: 140px;
-  height: 140px;
+  height: 180px;
   border-radius: 10px;
   object-fit: cover; /* Ensures the image covers the area without stretching */
 }
